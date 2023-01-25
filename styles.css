@@ -1,33 +1,170 @@
+body {
+    background-color: rgb(148, 142, 142);
+    font-family: 'Roboto', sans-serif;
+    ;
+}
 
-.btn-position {
-    /* background-color: green; */
-    float: right;
+.main-container {
+    border-radius: 10px;
+    background-color: white;
+    margin: 4rem;
+    display: flex;
+}
+
+.input-container input:focus {
+    border: 2px solid rgb(59, 127, 244);
+    box-shadow: 0 0 0 2px rgba(183, 199, 240, 0.8);
+}
+
+
+/* Left Container */
+.left-container {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+}
+
+.left-form-title {
+    text-align: center;
 }
 
 .description {
+    color: grey;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+input {
+    padding: .75rem;
+    border-radius: 10px;
+    margin-top: .3rem;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+
+.btn {
+    padding: .75rem;
+    background-color: rgb(46, 99, 244);
+    color: white;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    border: none;
+    width: 7rem;
+}
+
+.btn-placement {
+    text-align: right;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn:hover {
+    opacity: .9;
+}
+
+.dot-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dot {
+    height: .25rem;
+    width: .25rem;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: .25rem;
+}
+
+#dot-select {
+    background-color: rgb(12, 73, 239);
+}
+
+#email {
+    color: black;
+    outline: none;
+}
+
+label {
+    color: rgb(83, 83, 83)
+}
+
+input[type='password'] {
+    font-family: Verdana;
+    letter-spacing: 0.125em;
+}
+
+
+.input-container {
+    position: relative;
+}
+
+.input-container i {
+    position: absolute;
+    right: 0;
+    top: 1.4rem;
+    padding: 1rem;
+    color: #383c3f;
+}
+
+.input-container input {
+    margin-top: .3rem;
+    border: rgb(210, 210, 210) 1px solid;
+}
+
+/* Right Side */
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
     text-align: center;
-    color: rgb(90, 87, 87);
-}
-
-.form-label {
-    color: rgb(90, 87, 87);
-}
-
-.order-1 {
-display: flex; 
-flex-direction: column;
-align-items: center;
-padding: 10rem;
-
+    background-color: rgb(231, 230, 230);
+    padding: 4rem;
+    border-radius: 0 10px 10px 0;
 }
 
 .text-right {
-    color: rgb(26, 26, 76);
-    text-align: center;
+    color: rgb(7, 7, 124);
+    line-height: 140%;
 }
+
 
 .img-fluid {
+    width: 3rem;
     border-radius: 50%;
-    width: 4rem;
+    margin: 1rem;
 }
 
+.title-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    margin: 0;
+    font-weight: 300;
+}
+
+.title {
+    color: grey;
+    margin: .25rem;
+    font-weight: 300;
+}
+
+.input-icon {
+    position: absolute;
+}
