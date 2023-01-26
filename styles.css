@@ -19,6 +19,7 @@ body {
 
 /* Left Container */
 .left-container {
+    width: 70%;
     display: flex;
     flex-direction: column;
     padding: 4rem;
