@@ -10,4 +10,4 @@ CSS and HTML
 #### Dribbble sreen shot
 ![web-component](https://user-images.githubusercontent.com/99150447/215349571-5f43c879-981b-444b-aecb-317b8f144ebe.png)
 #### My coded version
-<img width="1024" alt="LGCodeChallenge" src="https://user-images.githubusercontent.com/99150447/215349647-dd243f4c-45a1-486f-8e6f-15f13ebdd115.png">
+<img width="959" alt="CodeChallenge" src="https://user-images.githubusercontent.com/99150447/217717599-7d7dcfd4-d988-47f7-931c-9eb4b616a3f3.png">
