@@ -1,7 +1,7 @@
 # LocalGoodCodeChallenge
 
 ## Overview
-This was a code challenge given by my internship. The challenge was to recreate a signup popup modal, based on a Dribbble screen shot.
+This was a code challenge given by my internship. The challenge was to recreate a signup popup modal, based on a static Dribbble screen shot.
 
 ## Tech Stack
 CSS and HTML 
